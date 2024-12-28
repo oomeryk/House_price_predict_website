@@ -1,0 +1,13 @@
+1. Adım  : Projenin sendeki halini test et çalşıyorsa devam et
+2. Adım : Kodu hangi Ideden çalıştırıyorsan oraya
+pip install fastapi uvicorn 
+aşağıdaki iki kütüphaneyi import etmen lazım
+3.Adım : app.py dosyasını ekle 
+4.adım : pred_price fonksiyonunu app.py dosyası içine import et edemezsen başka bir seçenek bulmamız lazım
+5.adım : 4-machine-learning.ipynb dosyasındaki input aldğın yerleri artık silebilrsin fonkisyonu burada çağırmana gerek yok artık
+6.adım : pred_price fonksiyounda print aldığın yerleri return etmen lazım 
+7.adım : terminalden sunucuyu ayağa kaldırman lazım komutu aşağıda
+uvicorn app:app --reload
+8.adım : isteği test etmek istersen postmandan test edebilrisn pcye onu kurabilirsin ya da bir frontend projesi oluşturup test edebilirsin :D
+9.adım : test ederken  POST "http://127.0.0.1:8000/rentalhouse" adresine post isteği atman lazım
+10.adım eğer 2.adım dan itibaren her şeyi yapıp bir şey olmuyorsa beni ara
